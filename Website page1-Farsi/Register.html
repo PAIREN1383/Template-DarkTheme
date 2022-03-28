@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Webstyle-fa.css">
+        <link rel="icon" type="image/x-icon" href="Favicon_programming.png">
+        <title> وب سایت </title>
+    </head>
+        
+    <body>
+        <img src="Csspng.png" id="logo">
+        <h1> نام وب سایت </h1>
+        
+        <nav id="menu">
+            <div><a href="Website-fa.html" class="m"><img src="house-fill.svg"> خانه </a></div>
+            <div><a href="page1.html" class="m"><img src="cast_for_education_black_24dp.svg"> دوره های آموزشی </a></div>
+            <div><a href="Register.html" class="m"><img src="Group%20Add.svg"> ثبت نام </a></div>
+            <div><a href="Login.html" class="m"><img src="Login.svg"> ورود </a></div>
+            <div><a href="Support.html" class="m"><img src="support.svg"> پشتیبانی </a></div>
+        </nav>
+        
+        <form id="rform">
+            <div id="rdiv">
+                <label for="f-name"> نام: </label>
+                <input id="f-name" name="fname" type="text" required>
+                <label for="l-name"> نام خانوادگی: </label>
+                <input id="l-name" name="lname" type="text" required>
+                <label for="u-name"> نام کاربری: </label>
+                <input id="u-name" name="rusername" type="text" required>
+                <label for="rpass"> رمز عبور: </label>
+                <input id="rpass" name="rpassword" type="password" required>
+                <label for="rrpass"> تکرار رمز عبور: </label>
+                <input id="rrpass" name="rrpassword" type="password" required>
+                <label for="e-mail"> ایمیل: </label>
+                <input id="e-mail" name="email" type="email" required>
+                <label for="ٔnum"> شماره تلفن: </label>
+                <input id="num" name="phonenum" type="tel" required>
+                <label for="r-cap"> لطفا به کپچا پاسخ دهید. </label>
+                <div id="divimg">
+                    <img id="r-icap" src="captcha.png">
+                    <button id="r-recap" type="reset" name="recaptcha">
+                        <img id="r-irecap" src="reset.svg">
+                    </button>
+                </div>
+                <input id="r-cap" type="text" name="rcaptcha" required>
+                <button id="r-butn" type="submit"> ثبت نام </button>
+            </div>
+        </form>
+    </body>
+</html>
